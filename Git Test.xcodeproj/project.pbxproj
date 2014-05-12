@@ -21,6 +21,7 @@
 		70646E091920FF0B00260761 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70646DEB1920FF0A00260761 /* UIKit.framework */; };
 		70646E111920FF0B00260761 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70646E0F1920FF0B00260761 /* InfoPlist.strings */; };
 		70646E131920FF0B00260761 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70646E121920FF0B00260761 /* Git_TestTests.m */; };
+		70646E1E19210A8400260761 /* BTTtest.m in Sources */ = {isa = PBXBuildFile; fileRef = 70646E1D19210A8400260761 /* BTTtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		70646E0E1920FF0B00260761 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		70646E101920FF0B00260761 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70646E121920FF0B00260761 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		70646E1C19210A8400260761 /* BTTtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTtest.h; sourceTree = "<group>"; };
+		70646E1D19210A8400260761 /* BTTtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				70646DF91920FF0A00260761 /* Main.storyboard */,
 				70646DFC1920FF0A00260761 /* BTViewController.h */,
 				70646DFD1920FF0A00260761 /* BTViewController.m */,
+				70646E1C19210A8400260761 /* BTTtest.h */,
+				70646E1D19210A8400260761 /* BTTtest.m */,
 				70646DFF1920FF0A00260761 /* Images.xcassets */,
 				70646DEE1920FF0A00260761 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				70646DFE1920FF0A00260761 /* BTViewController.m in Sources */,
 				70646DF81920FF0A00260761 /* BTAppDelegate.m in Sources */,
+				70646E1E19210A8400260761 /* BTTtest.m in Sources */,
 				70646DF41920FF0A00260761 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
